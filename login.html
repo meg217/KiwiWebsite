@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Login - Kiwi Electronics</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+       body {
+        font-family: 'Arimo', Arial, sans-serif;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <div class="container2">
+        <a href="#"><img src="img/kiwi.png" class="logo" alt=""></a>
+        <div class="site-name"><a href="#">Kiwi Electronics</a></div>
+    </div>
+    </header>
+    
+    <div class="login-container">
+        <h2>Login</h2>
+        <form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="">
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="">
+            <br>
+            <input type="submit" value="Login" onclick="return redirectToMainSite()">
+        </form>
+    </div>
+    <script>
+        function redirectToMainSite() {
+            window.location.href = "KiwiWebsite.html";
+            return false;
+        }
+    </script>
+</body>
+</html>
