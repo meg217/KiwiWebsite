@@ -5,7 +5,7 @@ using mySQL database:
 
     -install mySQL, download the dump file from discord from Venny
     
-    -install python https://www.python.org/downloads/
+    -install python https://www.python.org/downloads/windows/ ... windowns installer 64 bit
     
     -router config checkbox the bootstrap and name the host localhost and any other user pass you want
     
