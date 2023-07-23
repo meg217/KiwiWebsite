@@ -13,7 +13,7 @@ using mySQL database:
     
     -the datatable should now be set up
 
-using the flask:
+using the flask db connector:
 
     -pip install flask
 
