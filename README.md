@@ -1,5 +1,6 @@
 # KiwiWebsite
 using mySQL database:
+    
     -make sure to remember your password when setting up mysql
 
     -install mySQL, download the dump file from discord from Venny
@@ -12,7 +13,16 @@ using mySQL database:
     
     -the datatable should now be set up
 
+using the flask:
+
+    -pip install flask
+
+    -pip install pymysql (i think lmk if it doesnt work)
+
+    -then the create the connection run python app.py
+    
 using the css and html code:
+    
     -the app.py creates the connection and everything should be all set up for that
     
     -working on querrying through the products from the database
