@@ -1,10 +1,15 @@
 # KiwiWebsite
 using mySQL database:
     -make sure to remember your password when setting up mysql
+
     -install mySQL, download the dump file from discord from Venny
+    
     -install python
+    
     -first thig is to set up mysql, select the all and download
+   
     -go to mysql and import data, import it from the dump file into a new schema named kiwi_website
+    
     -the datatable should now be set up
 
 using the css and html code:
