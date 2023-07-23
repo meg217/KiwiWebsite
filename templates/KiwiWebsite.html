@@ -1,0 +1,159 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Kiwi Electronics</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <header>
+        <container>
+        <a href="#"><img src="img/Kiwi.png" class="logo" alt=""></a>
+        <div class="site-name"><a href="#">Kiwi Electronics</a></div>
+    <div class="search">
+          <input type="text" class="searchTerm" placeholder="search products" >
+            <i class="fa fa-search"></i>
+       </div>
+        <div class="navbar">
+            <ul>
+                <list><a href="KiwiWebsite.html" class="under">HOME</a></list>
+                <list><a href="cart.html" class="under">CART</a></list>
+            </ul>
+        </div>
+        </container>
+    </header>
+
+    <section id="filters">
+    <div class="filter-bar">
+      <div class="filter-inner">
+        <div class="dropdown">
+          <select class="form-control">
+            <option value="*">Category</option>
+            <option value="phone">Phone</option>
+            <option value="tablet">Tablet</option>
+            <option value="watch">Watch</option>
+          </select>
+        </div>
+        <div class="dropdown">
+          <select class="form-control">
+            <option value="*">Price</option>
+            <option value="low">Under 100</option>
+            <option value="high">Over 100</option>
+          </select>
+        </div>
+        <div class="dropdown">
+          <select class="form-control">
+            <option value="*">Color</option>
+            <option value="low">Gold</option>
+            <option value="high">Silver</option>
+            <option value="low">Black</option>
+            <option value="high">Green</option>
+          </select>
+        </div>
+          </div>
+        </div>
+
+    </section>
+
+    <section id="shop" class="shop-container">
+      <div class="product-container">
+        {% for product in products %}
+        <div class="product">
+          <img src="static/img/products/phone2.png" alt="">
+          <div class="description">
+            <h4>{{ product.Item_Name }}</h4>
+            <h4>${{ product.Price }}</h4>
+            
+            <button class="add-to-cart">
+              <span>Add to cart</span>
+            </button>
+          </div>
+        </div>
+        {% endfor %}
+        <div class="product">
+          <img src="img/products/phone2.png" alt="">
+          <div class="description">
+            <h4>kiwiPod 3</h4>
+            <h4>$150</h4>
+            <button class="add-to-cart">
+              <span>Add to cart</span>
+              </button>
+          </div>
+        </div>
+        <div class="product">
+          <img src="img/products/phone2.png" alt="">
+          <div class="description">
+            <h4>kiwiPod 3</h4>
+            <h4>$150</h4>
+            <button class="add-to-cart">
+              <span>Add to cart</span>
+              </button>
+          </div>
+        </div>
+        <div class="product">
+          <img src="img/products/phone2.png" alt="">
+          <div class="description">
+            <h4>kiwiPod 3</h4>
+            <h4>$150</h4>
+            <button class="add-to-cart">
+              <span>Add to cart</span>
+              </button>
+          </div>
+        </div>
+        <div class="product">
+          <img src="img/products/phone2.png" alt="">
+          <div class="description">
+            <h4>kiwiPod 3</h4>
+            <h4>$150</h4>
+            <button class="add-to-cart">
+              <span>Add to cart</span>
+              </button>
+          </div>
+        </div><div class="product">
+          <img src="img/products/phone2.png" alt="">
+          <div class="description">
+            <h4>kiwiPod 3</h4>
+            <h4>$150</h4>
+            <button class="add-to-cart">
+              <span>Add to cart</span>
+              </button>
+          </div>
+        </div>
+        <div class="product">
+          <img src="img/products/phone2.png" alt="">
+          <div class="description">
+            <h4>kiwiPod 3</h4>
+            <h4>$150</h4>
+            <button class="add-to-cart">
+              <span>Add to cart</span>
+              </button>
+          </div>
+        </div>
+        <div class="product">
+          <img src="img/products/phone2.png" alt="">
+          <div class="description">
+            <h4>kiwiPod 3</h4>
+            <h4>$150</h4>
+            <button class="add-to-cart">
+              <span>Add to cart</span>
+              </button>
+          </div>
+        </div>
+        <div class="product">
+          <img src="img/products/phone2.png" alt="">
+          <div class="description">
+            <h4>kiwiPod 3</h4>
+            <h4>$150</h4>
+            <button class="add-to-cart">
+              <span>Add to cart</span>
+              </button>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+</body>
+</html>
