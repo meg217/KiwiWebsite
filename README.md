@@ -5,7 +5,7 @@ using mySQL database:
 
     -install mySQL, download the dump file from discord from Venny
     
-    -install python
+    -install python https://www.python.org/downloads/
     
     -first thig is to set up mysql, select the all and download
    
