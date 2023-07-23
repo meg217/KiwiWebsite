@@ -7,6 +7,8 @@ using mySQL database:
     
     -install python https://www.python.org/downloads/
     
+    -router config checkbox the bootstrap and name the host localhost and any other user pass you want
+    
     -first thig is to set up mysql, select the all and download
    
     -go to mysql and import data, import it from the dump file into a new schema named kiwi_website
