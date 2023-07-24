@@ -19,7 +19,11 @@ using the flask db connector:
 
     -pip install flask
 
-    -pip install pymysql (i think lmk if it doesnt work)
+    -pip install pymysql 
+
+    -pip install cryptography
+
+    -python app.py
 
     -then the create the connection run python app.py
     
