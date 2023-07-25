@@ -42,5 +42,17 @@ using the css and html code:
     -retreiving the info from the user from the inputs (ie email and password)
    
     -creating all of the features ie search bar
+
+
+    link examples: 
+    
+    imput text from website to database: https://stackoverflow.com/questions/42662502/getting-the-input-from-html- 
+    form-and-storing-it-in-mysql-through-flask
+
+    adding htmls to app.py: https://stackoverflow.com/questions/58147040/python-flask-sql-query-to-html-page-table
+
+    querrying through products in html: https://stackoverflow.com/questions/66212883/python-and-flask-display-data-out-of-mysql-db-on-html-page
+
+
     
 
