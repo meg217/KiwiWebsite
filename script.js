@@ -1,1 +1,0 @@
-DocumentTimeline.write("this is JS code")
