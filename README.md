@@ -23,6 +23,8 @@ using the flask db connector:
 
     -pip install cryptography
 
+    -pip install flask-session
+
     -python app.py
 
     -then the create the connection run python app.py
