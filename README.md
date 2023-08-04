@@ -55,6 +55,21 @@ using the css and html code:
 
     querrying through products in html: https://stackoverflow.com/questions/66212883/python-and-flask-display-data-out-of-mysql-db-on-html-page
 
+When trying to run the project:
+
+    -download KiwiWebsiteVersion(FINAL).zip 
+
+    -extract it and take the extracted folder and place it into your python virtual environment, which is where all the aforementioned libraries should be
+
+    -after which download kiwi_elec(FINAL).sql 
+
+    -open your MySQL root local server, navigate to the File button on the top left and press Open SQL Script in the drop down, after which you navigate to
+    where you stored kiwi_elec(FINAL).sql and click it once you run the SQL script it should create the database used to run the website
+
+    -If you complete all the previous steps exactly you simply need to run the command python app.py in the python terminal to run the website, following
+    which you crtl+left click the url in the python terminal to go the website on your browser.    
+    
+
 
     
 
