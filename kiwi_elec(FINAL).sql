@@ -38,7 +38,7 @@ CREATE TABLE `cart` (
   KEY `User_cart` (`Account_ID`),
   CONSTRAINT `Product` FOREIGN KEY (`Item_ID`) REFERENCES `product` (`Item_ID`),
   CONSTRAINT `User_cart` FOREIGN KEY (`Account_ID`) REFERENCES `user_account` (`Account_ID`)
-) ENGINE=InnoDB AUTO_INCREMENT=270 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=273 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -196,7 +196,7 @@ CREATE TABLE `user_account` (
   `Bill_State` varchar(100) NOT NULL,
   `Bill_zip` varchar(20) NOT NULL,
   PRIMARY KEY (`Account_ID`)
-) ENGINE=InnoDB AUTO_INCREMENT=1010 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=1011 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -205,7 +205,7 @@ CREATE TABLE `user_account` (
 
 LOCK TABLES `user_account` WRITE;
 /*!40000 ALTER TABLE `user_account` DISABLE KEYS */;
-INSERT INTO `user_account` VALUES (1000,'John','Saxton','john.saxton@gmail.com','johnsax230','574-732-0384','584 Southhampton Ct.','North Tonawanda','NY','14120','584 Southhampton Ct.','North Tonawanda','NY','14120'),(1001,'Madeline','Pilton','maddy.pilton@gmail.com','maddyPils21','574-678-6512','203 Linda Ct.','Merrick','NY','11566','203 Linda Ct.','Merrick','NY','11566'),(1002,'Marisa','Baruch','marisa.baruch22@gamil.com','maruch3028','981-676-1397','20 Marshall Ave.','Winowa','MN','55987','20 Marshall Ave.','Winowa','MN','55987'),(1003,'Radomil','Andris','radisAndil@gmail.com','Radis3081','623-355-9380','260 Pineknoll Dr.','Webster','NY','14580','260 Pineknoll Dr.','Webster','NY','14580'),(1004,'Alice ','Hadrian','aliceHadrian@gmail.com','AliceH20','943-748-8477','43 Old Ashley Ln.','Kokomo','IN','46901','43 Old Ashley Ln.','Kokomo','IN','46901'),(1005,'Suresh','Killian','surKillian430@gmail.com','Killian06498','252-235-6865','95 East Jennings Ave.','Stevens Point','WI','54481','95 East Jennings Ave.','Stevens Point','WI','54481'),(1006,'Meagan','Mueller','meaganbmueller@gmail.com','rosebud560','5127504252','7777 Cloud Rd','Austin','Texas','78749','7777 Cloud Rd','Austin','Texas','78749'),(1007,'Kevin','De Hoyos','kevindehoyos66066@gmail.com','2135064#Kevin','8302135074','Monopoly','Austin','Texas','78045','Monopoly','Austin','Texas','78045'),(1008,'Kevin','De Hoyos','kevindehoyos66066@gmail.com','2135064#Kevin','8302135074','Monopoly','Austin','Texas','78045','Monopoly','Austin','Texas','78045'),(1009,'Meagan','Mueller','meaganbmueller@gmail.com','rosebud560','5122222222','7777 Cloud Dr','Austin','Tx','78759','7777 Cloud Dr','Austin','Tx','78759');
+INSERT INTO `user_account` VALUES (1000,'John','Saxton','john.saxton@gmail.com','johnsax230','574-732-0384','584 Southhampton Ct.','North Tonawanda','NY','14120','584 Southhampton Ct.','North Tonawanda','NY','14120'),(1001,'Madeline','Pilton','maddy.pilton@gmail.com','maddyPils21','574-678-6512','203 Linda Ct.','Merrick','NY','11566','203 Linda Ct.','Merrick','NY','11566'),(1002,'Marisa','Baruch','marisa.baruch22@gamil.com','maruch3028','981-676-1397','20 Marshall Ave.','Winowa','MN','55987','20 Marshall Ave.','Winowa','MN','55987'),(1003,'Radomil','Andris','radisAndil@gmail.com','Radis3081','623-355-9380','260 Pineknoll Dr.','Webster','NY','14580','260 Pineknoll Dr.','Webster','NY','14580'),(1004,'Alice ','Hadrian','aliceHadrian@gmail.com','AliceH20','943-748-8477','43 Old Ashley Ln.','Kokomo','IN','46901','43 Old Ashley Ln.','Kokomo','IN','46901'),(1005,'Suresh','Killian','surKillian430@gmail.com','Killian06498','252-235-6865','95 East Jennings Ave.','Stevens Point','WI','54481','95 East Jennings Ave.','Stevens Point','WI','54481'),(1006,'Meagan','Mueller','meaganbmueller@gmail.com','rosebud560','5127504252','7777 Cloud Rd','Austin','Texas','78749','7777 Cloud Rd','Austin','Texas','78749'),(1007,'Kevin','De Hoyos','kevindehoyos66066@gmail.com','2135064#Kevin','8302135074','Monopoly','Austin','Texas','78045','Monopoly','Austin','Texas','78045'),(1008,'Kevin','De Hoyos','kevindehoyos66066@gmail.com','2135064#Kevin','8302135074','Monopoly','Austin','Texas','78045','Monopoly','Austin','Texas','78045'),(1009,'Meagan','Mueller','meaganbmueller@gmail.com','rosebud560','5122222222','7777 Cloud Dr','Austin','Tx','78759','7777 Cloud Dr','Austin','Tx','78759'),(1010,'Venkatesh','Ravichandiran','venkateshr2432@gmail.com','hello123','2192141451','8818 SHADY POND','Fair Oaks Ranch','Texas','78015-5202','8818 SHADY POND','Fair Oaks Ranch','Texas','78015-5202');
 /*!40000 ALTER TABLE `user_account` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -226,4 +226,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-08-03  9:16:08
+-- Dump completed on 2023-08-03 22:41:44
